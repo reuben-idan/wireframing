@@ -21,6 +21,7 @@
 
 - [Overview](#overview)
 - [Key Elements of Wireframing](#key-elements-of-wireframing)
+- [Types of Wireframes](#types-of-wireframes)
 - [Strategic Importance](#strategic-importance)
 - [Methodology](#methodology)
 - [Value Proposition](#value-proposition)
@@ -371,6 +372,259 @@ The four key elements work together to create cohesive wireframes that effective
 - [ ] Error states and validation considered
 
 </details>
+
+---
+
+## 📊 Types of Wireframes
+
+<div align="center">
+
+![Wireframe Types](https://via.placeholder.com/800x200/4ECDC4/FFFFFF?text=Low+Fidelity+vs+High+Fidelity+Wireframes)
+
+</div>
+
+Wireframes exist on a spectrum from low-fidelity to high-fidelity, each serving distinct purposes in the design process. Understanding when and how to use each type is crucial for effective wireframing workflows.
+
+### Low-Fidelity Wireframes
+
+Low-fidelity wireframes are the foundational building blocks of the design process, focusing on structure and functionality over visual details.
+
+#### Characteristics
+
+<div align="center">
+
+| Aspect            | Description                                     | Example                                     |
+| ----------------- | ----------------------------------------------- | ------------------------------------------- |
+| **Visual Detail** | Minimal visual elements, basic shapes and lines | Rectangles for content blocks, simple icons |
+| **Color Usage**   | Monochromatic or limited color palette          | Black, white, and grays only                |
+| **Typography**    | Basic font representation                       | Generic text placeholders                   |
+| **Content**       | Lorem ipsum or placeholder text                 | "Sample text" or "Content here"             |
+| **Interactions**  | Basic interaction indicators                    | Simple arrows or notes                      |
+
+</div>
+
+#### When to Use Low-Fidelity Wireframes
+
+<div align="center">
+
+| Design Phase                 | Purpose                             | Benefits                                       |
+| ---------------------------- | ----------------------------------- | ---------------------------------------------- |
+| **Discovery**                | Initial concept exploration         | Rapid iteration and idea generation            |
+| **Information Architecture** | Content organization and hierarchy  | Focus on structure without visual distractions |
+| **User Flow Mapping**        | Navigation and interaction planning | Clear user journey visualization               |
+| **Stakeholder Review**       | Early feedback and validation       | Quick comprehension and feedback               |
+| **Team Collaboration**       | Cross-functional communication      | Universal understanding across disciplines     |
+
+</div>
+
+#### Advantages
+
+- **Speed**: Quick to create and modify
+- **Focus**: Emphasizes functionality over aesthetics
+- **Flexibility**: Easy to iterate and refine
+- **Cost-Effective**: Minimal time investment
+- **Collaborative**: Accessible to all team members
+
+#### Limitations
+
+- **Limited Detail**: May miss important visual considerations
+- **Stakeholder Confusion**: Some stakeholders may struggle with abstraction
+- **User Testing Limitations**: May not capture all user interaction nuances
+
+### High-Fidelity Wireframes
+
+High-fidelity wireframes provide detailed representations that closely resemble the final product, incorporating visual design elements and specific content.
+
+#### Characteristics
+
+<div align="center">
+
+| Aspect            | Description                                    | Example                                        |
+| ----------------- | ---------------------------------------------- | ---------------------------------------------- |
+| **Visual Detail** | Detailed visual elements and realistic content | Actual images, icons, and graphics             |
+| **Color Usage**   | Full color palette and brand colors            | Complete visual design system                  |
+| **Typography**    | Specific fonts and typography hierarchy        | Real font families and sizing                  |
+| **Content**       | Actual copy and real content                   | Final text, images, and media                  |
+| **Interactions**  | Detailed interaction states and animations     | Hover effects, transitions, micro-interactions |
+
+</div>
+
+#### When to Use High-Fidelity Wireframes
+
+<div align="center">
+
+| Design Phase            | Purpose                           | Benefits                               |
+| ----------------------- | --------------------------------- | -------------------------------------- |
+| **Detailed Design**     | Final design specification        | Precise visual and interaction details |
+| **User Testing**        | Comprehensive usability testing   | Realistic user experience evaluation   |
+| **Client Presentation** | Stakeholder approval and sign-off | Clear vision of final product          |
+| **Development Handoff** | Technical implementation guidance | Detailed specifications for developers |
+| **Quality Assurance**   | Final review and validation       | Comprehensive design verification      |
+
+</div>
+
+#### Advantages
+
+- **Detail Accuracy**: Precise representation of final product
+- **User Testing**: Realistic user experience evaluation
+- **Stakeholder Clarity**: Clear vision for non-technical stakeholders
+- **Development Ready**: Detailed specifications for implementation
+- **Quality Assurance**: Comprehensive design validation
+
+#### Limitations
+
+- **Time Investment**: Significant creation and modification time
+- **Iteration Cost**: Expensive to make changes
+- **Focus Shift**: May distract from functionality to aesthetics
+- **Resource Intensive**: Requires more design expertise and tools
+
+### Comparison Matrix
+
+<div align="center">
+
+| Factor                   | Low-Fidelity | High-Fidelity |
+| ------------------------ | ------------ | ------------- |
+| **Creation Speed**       | Very Fast    | Slow          |
+| **Modification Ease**    | Very Easy    | Difficult     |
+| **Cost**                 | Low          | High          |
+| **Detail Level**         | Basic        | Comprehensive |
+| **Stakeholder Clarity**  | Variable     | High          |
+| **User Testing Value**   | Limited      | Comprehensive |
+| **Development Guidance** | Basic        | Detailed      |
+| **Iteration Frequency**  | High         | Low           |
+
+</div>
+
+### Design Process Integration
+
+<div align="center">
+
+```mermaid
+graph LR
+    A[Project Start] --> B[Low-Fidelity Sketches]
+    B --> C[Low-Fidelity Digital]
+    C --> D[User Testing & Feedback]
+    D --> E[Refinement]
+    E --> F[High-Fidelity Wireframes]
+    F --> G[Final Testing]
+    G --> H[Development Handoff]
+
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+    style F fill:#f1f8e9
+    style G fill:#e0f2f1
+    style H fill:#f9fbe7
+```
+
+</div>
+
+### When to Transition Between Types
+
+#### Low to High-Fidelity Transition Triggers
+
+<details>
+<summary>Click to expand</summary>
+
+- **Stakeholder Approval**: Low-fidelity concepts have been validated
+- **User Testing Completion**: Core functionality has been tested and refined
+- **Design System Ready**: Visual design system and brand guidelines established
+- **Development Timeline**: Sufficient time for detailed wireframe creation
+- **Resource Availability**: Design team has capacity for detailed work
+
+</details>
+
+#### High-Fidelity Considerations
+
+<details>
+<summary>Click to expand</summary>
+
+- **Content Finalization**: Actual copy and media assets available
+- **Brand Guidelines**: Complete visual design system established
+- **Technical Constraints**: Development platform and technology stack defined
+- **User Research**: Comprehensive user testing and feedback incorporated
+- **Project Timeline**: Adequate time for detailed design and testing
+
+</details>
+
+### Tool Selection by Fidelity Level
+
+<div align="center">
+
+| Fidelity Level      | Recommended Tools                          | Use Cases                                                        |
+| ------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+| **Low-Fidelity**    | Paper, Whiteboard, Balsamiq, Figma (basic) | Rapid prototyping, brainstorming, early concepts                 |
+| **Medium-Fidelity** | Figma, Sketch, Adobe XD                    | Detailed wireframes, user testing, stakeholder review            |
+| **High-Fidelity**   | Figma, Sketch, Adobe XD, InVision          | Final specifications, development handoff, comprehensive testing |
+
+</div>
+
+### Best Practices
+
+#### Low-Fidelity Best Practices
+
+<div align="center">
+
+| Practice                    | Description                            | Benefit                              |
+| --------------------------- | -------------------------------------- | ------------------------------------ |
+| **Keep It Simple**          | Use basic shapes and minimal detail    | Focus on functionality and structure |
+| **Iterate Rapidly**         | Make quick changes and test frequently | Faster validation and refinement     |
+| **Use Placeholder Content** | Lorem ipsum and generic images         | Avoid content distraction            |
+| **Focus on Flow**           | Emphasize user journey and navigation  | Clear user experience planning       |
+| **Collaborate Early**       | Involve stakeholders in early stages   | Better alignment and feedback        |
+
+</div>
+
+#### High-Fidelity Best Practices
+
+<div align="center">
+
+| Practice                   | Description                             | Benefit                           |
+| -------------------------- | --------------------------------------- | --------------------------------- |
+| **Use Real Content**       | Actual copy and images                  | Realistic user experience         |
+| **Include All States**     | Hover, active, disabled, error states   | Comprehensive interaction design  |
+| **Follow Design System**   | Consistent visual language              | Brand consistency and scalability |
+| **Consider Accessibility** | Color contrast, text sizing, navigation | Inclusive design                  |
+| **Document Interactions**  | Detailed interaction specifications     | Clear development guidance        |
+
+</div>
+
+### Wireframe Type Selection Guide
+
+<div align="center">
+
+| Project Phase                | Recommended Type | Reasoning                                   |
+| ---------------------------- | ---------------- | ------------------------------------------- |
+| **Discovery & Research**     | Low-Fidelity     | Rapid exploration and concept validation    |
+| **Information Architecture** | Low-Fidelity     | Focus on content organization and hierarchy |
+| **User Flow Design**         | Low-Fidelity     | Clear navigation and interaction planning   |
+| **Initial User Testing**     | Low-Fidelity     | Basic functionality and flow validation     |
+| **Detailed Design**          | High-Fidelity    | Comprehensive visual and interaction design |
+| **Final User Testing**       | High-Fidelity    | Realistic user experience evaluation        |
+| **Stakeholder Approval**     | High-Fidelity    | Clear vision of final product               |
+| **Development Handoff**      | High-Fidelity    | Detailed specifications for implementation  |
+
+</div>
+
+### Current Project Wireframe Type
+
+<div align="center">
+
+[![Wireframe Type](https://img.shields.io/badge/Wireframe_Type-Low_Fidelity-blue?style=for-the-badge)](https://github.com)
+
+</div>
+
+**This project focuses on low-fidelity wireframes** as the primary wireframing approach, emphasizing:
+
+- **Educational Foundation**: Building fundamental wireframing skills
+- **Conceptual Clarity**: Focusing on structure and functionality over visual details
+- **Rapid Iteration**: Enabling quick exploration and refinement of design concepts
+- **Universal Accessibility**: Creating wireframes that are accessible to all skill levels
+- **Process Understanding**: Emphasizing the wireframing methodology over visual design
+
+This approach allows learners to master the core principles of wireframing before advancing to more complex high-fidelity techniques.
 
 ---
 
